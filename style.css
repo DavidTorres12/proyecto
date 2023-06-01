@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+    width: 12%; 
+}
+.menu{
+    text-align: center;
+}
+h1, h2, h3 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 40px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  
+}
+/* Estilos de encabezado */
+header {
+  background-color: #333;
+  color: #ffffff;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+  align-content: center;
+}
+
+.btn {
+  background-color: #ff5500;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Estilos de sección de productos */
+.products {
+  padding: 50px;
+}
+.products h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.divisiones{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+ .product{
+    width:33%;
+    margin-bottom: 60px;
+    
+ }
+
+img{
+    width: 25%;
+}
+
+
+.pie{
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+
+.cart {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .cart h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #cartItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #cartItems li {
+    margin-bottom: 10px;
+  }
+  
+  #totalPrice {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+
+.Sobre-nosotros{
+  background: url(img/abhishek-chandra-kXJksx1kdJ0-unsplash.jpg)no-repeat center ; 
+  background-size: cover;
+
+  height: 350px;
+  display: flex;
+ align-items: center;
+ 
+}
+.nosotros1{
+  color: #fff;
+  width: 40%;
+  text-align: center;
+  font-size: 3em;
+}
+.nosotros{
+  color: #fff;
+  width: 20%;
+  text-align: center;
+}
+.text{
+ font-size: 2em;
+ margin:0;
+}
